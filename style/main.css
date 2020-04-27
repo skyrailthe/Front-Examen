@@ -1,4 +1,6 @@
+@media screen  and (max-width: 720px) /* Smarphone */ {
 main .section1{
+    max-height: 100vh;
     height: 100vh;
     width: 100%;
     background-image: url(../img/2.png);
@@ -6,13 +8,22 @@ main .section1{
     background-position: center;
     padding-top: 10%;
 }
+main .section1 .content{
+    position: relative;
+    top: 5%;
+}
 main .section1 .content .logos{
-    width: 240px;
+    width: 80%;
     margin: 0px auto;
+
 }
 main .section1 .content .logos img{
-    width: 240px;
-    margin-top: 40px;
+    display: block;
+    align-content: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0px auto;
+
 }
 main .section1 .content .logos #logo2{
     visibility: hidden;
@@ -21,18 +32,23 @@ main .section1 .content .logos #logo2{
 }
 main .section1 .content .description{
     font-family: 'Aleo';
-    width: 240px;
+    width: 80%;
+    max-width: 360px;
     margin: 0px auto;
     color: white;
 }
 main .section1 .content .description h2{
-margin-top: 20px;
+    text-align: center;
+margin-top: 5px;
+margin-bottom: 5px;
 font-family: 'Aleo';
 }
 main .section1 .content .description p{
+    margin-top:  10px;
+    margin-bottom: 0px;
     font-family: 'josefin';
     letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 17px;
     }
 main .section1 .content .description a{
     display: block;
@@ -54,14 +70,19 @@ main .section1 .content .description a:hover{
     color: black;
 }
 main .section1 .content .background{
+    visibility: hidden;
+    display: inline-block;
+    width: 100%;
     background-color: #333333;
-    margin-top: 10px;
-    height: 30em;
+    position: absolute;
+    margin-top: 75vh;
 }
 main .section1 .content .background .dotted_pic{
     display: block;
-    width: 320px;
-    margin: 0px auto;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding: 0 0 80px 0;
 }
 main .section1 .content .background .dotted_pic .line-top {
     display: inline-block;
@@ -115,14 +136,16 @@ main .section1 .content .background .dotted_pic .block_underline span{
         background-position: center;
     }
     main .section2 .background{
-        padding-top: 150px;
+        display: block;
+        padding-top: 30vh;
     }
     main .section2 .background .description{
-        width: 240px;
+        width: 80%;
+        max-width: 360px;
         margin: 0px auto;
         padding: 20px;
         color: white;
-        background-color: rgba(48, 48, 48, 0.507);
+        background-color: rgba(48, 48, 48, 0.75);
     }
     main .section2 .background .description h2{
         margin-top: 0px;
@@ -131,7 +154,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
     }
     main .section2 .background .description span{
             font-family: 'josefin';
-            font-size: 11px;
+            font-size: 17px;
     }
     main .section2 .background .description a{
             display: block;
@@ -153,51 +176,53 @@ main .section1 .content .background .dotted_pic .block_underline span{
             color: black;
     }
 
-        main .section3{
-            height: 100vh;
-            width: 100%;
-            background-image: url(../img/4.png);
-            background-size: cover;
-            background-position: center;
-        }
-        main .section3 .background{
-            padding-top: 150px;
-        }
-        main .section3 .background .description{
-            width: 240px;
-            margin: 0px auto;
-            padding: 20px;
-            color: white;
-            background-color: rgba(48, 48, 48, 0.507);
-        }
-        main .section3 .background .description h2{
-            margin-top: 0px;
-            padding: 5px 0 5px 0;
+    main .section3{
+        height: 100vh;
+        width: 100%;
+        background-image: url(../img/4.png);
+        background-size: cover;
+        background-position: center;
+    }
+    main .section3 .background{
+        display: block;
+        padding-top: 30vh;
+    }
+    main .section3 .background .description{
+        width: 80%;
+        max-width: 360px;
+        margin: 0px auto;
+        padding: 20px;
+        color: white;
+        background-color: rgba(48, 48, 48, 0.75);
+    }
+    main .section3 .background .description h2{
+        margin-top: 0px;
+        padding: 5px 0 5px 0;
+        font-family: 'josefin';
+    }
+    main .section3 .background .description span{
             font-family: 'josefin';
-        }
-        main .section3 .background .description span{
-                font-family: 'josefin';
-                font-size: 11px;
-        }
-        main .section3 .background .description a{
-                display: block;
-                font-size: 18px;
-                text-align: center;
-                margin-top: 50px;
-                text-decoration: none;
-                padding: 15px;
-                color: white;
-                background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
-                font-family: 'Aleo';
-        }
-        main .section3 .background .description a:active{
-                text-decoration: underline;
-                color: black;
-        }
-        main .section3 .background .description a:hover{
-                text-decoration: underline;
-                color: black;
-        }
+            font-size: 17px;
+    }
+    main .section3 .background .description a{
+            display: block;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 50px;
+            text-decoration: none;
+            padding: 15px;
+            color: white;
+            background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+            font-family: 'Aleo';
+    }
+    main .section3 .background .description a:active{
+            text-decoration: underline;
+            color: black;
+    }
+    main .section3 .background .description a:hover{
+            text-decoration: underline;
+            color: black;
+    }
 
 
             main .section4{
@@ -238,15 +263,15 @@ main .section1 .content .background .dotted_pic .block_underline span{
             main .section4 .content .description span{
                 font-family: 'josefin';
                 letter-spacing: 1px;
-                font-size: 11px;
+                font-size: 15px;
             }
             main .section4 .content .description span i{
                 position: relative;
                 top: -5px;
     color: rgba(73,107,255,1);
             }
-
-@media screen  and (min-width: 979px) /* Tablet */ {
+}
+@media screen  and (min-width: 720px) /* Tablet */ {
     main .section1{
         height: 100vh;
         width: 100%;
@@ -260,24 +285,25 @@ main .section1 .content .background .dotted_pic .block_underline span{
         height: 100%;
     }
     main .section1 .content .logos{
-        width: 360px;
+        width: 240px;
         position: absolute;
+        top: 120%;
         right: 10%;
     }
     main .section1 .content .logos img{
-        width: 340px;
+        width: 240px;
     }
     main .section1 .content .logos #logo2{
         margin-top: none;
         visibility: visible;
-        height: 240px;
-        margin-left: 60px;
+        margin-left: 20px;
     }
     main .section1 .content .description{
         font-family: 'Aleo';
-        width: 360px;
-        margin-left: 250px;
-        margin-top: 150px;
+        width: 320px;
+        margin: 0 auto;
+        padding-right: 200px;
+        margin-top: 270px;
         color: white;
     }
     main .section1 .content .description h2{
@@ -311,12 +337,12 @@ main .section1 .content .background .dotted_pic .block_underline span{
         color: black;
     }
     main .section1 .content .background{
-        background-color: #333333;
-        margin-top: 65%;
+        visibility: visible;
+        display: inline-block;
         width: 100%;
-        height: 200px;
+        background-color: #333333;
         position: absolute;
-        bottom: -120vh;
+        margin-top: 82vh;
     }
     main .section1 .content .background .dotted_pic{
         display: block;
@@ -383,7 +409,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
         }
         main .section2 .background{
             padding-top: 300px;
-            padding-right: 390px;
+            padding-right: 40%;
         }
         main .section2 .background .description{
             width: 360px;
@@ -437,7 +463,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
             }
             main .section3 .background{
                 padding-top: 300px;
-                padding-left: 390px;
+                padding-left: 40%;
             }
             main .section3 .background .description{
                 width: 360px;
@@ -490,29 +516,31 @@ main .section1 .content .background .dotted_pic .block_underline span{
                     padding-top: 300px;
                 }
                 main .section4 .content{
-                    width: 780px;
+                   
                     margin: 0px auto;
+                    padding: 5%;
                 }
                 main .section4 .content .logos{
-                    width: 400px;
+                    width: 50%;
+
                     margin: 0px auto;
                     float: left;
-                    margin-right: 20px;
                 }
                 main .section4 .content .logos img{
-                    width: 400px;
+                    width: 100%;
                     margin-top: 70px;
-
+                    max-height: 220px;
+                    max-width: 380px;
                 }
                 main .section4 .content .description{
                     font-family: 'Aleo';
-                    width: 380px;
+                    width: 45%;
                     margin: 20px;
                     margin-left: 340px;
                     margin-top: 103px;
                     color: white;
                     background-color: #333333;
-                    padding: 17px;
+                    padding: 10px 20px;
                 }
                 main .section4 .content h2{
                 margin-top: 20px;
@@ -525,7 +553,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
                 main .section4 .content .description h2{
                     font-size: 20px;
                     text-align: left;
-                    margin-top: 20px;
+                    margin-top: 0px;
                     font-family: 'josefin';
                     text-transform: uppercase;
                 }
@@ -540,8 +568,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
         color: rgba(73,107,255,1);
                 }
 }
-
-@media screen  and (min-width: 1400px) /* Tablet */ {
+@media screen  and (min-width: 1140px) /* PC */ {
     main .section1{
         height: 100vh;
         width: 100%;
@@ -552,12 +579,11 @@ main .section1 .content .background .dotted_pic .block_underline span{
     }
     main .section1 .content{
         padding-top: 1px;
-
     }
     main .section1 .content .logos{
         width: 360px;
         position: absolute;
-        left: 50%;
+        left: 60%;
     }
     main .section1 .content .logos img{
         width: 340px;
@@ -572,7 +598,7 @@ main .section1 .content .background .dotted_pic .block_underline span{
         font-family: 'Aleo';
         width: 560px;
         position: absolute;
-        left: 5%;
+        left: 20%;
         color: white;
     }
     main .section1 .content .description h2{
@@ -771,61 +797,64 @@ main .section1 .content .background .dotted_pic .block_underline span{
             }
 
 
-                main .section4{
-                    height: 100vh;
-                    width: 100%;
-                    background-image: url(../img/5.png);
-                    background-size: cover;
-                    padding-top: 300px;
-                }
-                main .section4 .content{
-                    width: 880px;
-                    margin: 0px auto;
-                }
-                main .section4 .content .logos{
-                    width: 400px;
-                    margin: 0px auto;
-                    float: left;
-                    margin-right: 20px;
-                }
-                main .section4 .content .logos img{
-                    width: 400px;
-                    margin-top: 70px;
-
-                }
-                main .section4 .content .description{
-                    font-family: 'Aleo';
-                    width: 500px;
-                    margin: 20px;
-                    margin-left: 340px;
-                    margin-top: 103px;
-                    color: white;
-                    background-color: #333333;
-                    padding: 38px;
-                }
-                main .section4 .content h2{
-                margin-top: 20px;
+            main .section4{
+                height: 100vh;
+                width: 100%;
+                background-image: url(../img/5.png);
+                background-size: cover;
+                padding-top: 300px;
+            }
+            main .section4 .content{
+               width: 100%;
+                margin: 0px auto;
+                padding: 5%;
+            }
+            main .section4 .content .logos{
+                width: 40%;
+                text-align: right;
+                margin: 0px auto;
+                float: left;
+            }
+            main .section4 .content .logos img{
+                width: 100%;
+                margin-top: 70px;
+                max-width: 500px;
+                max-height: 500px;
+            }
+            main .section4 .content .description{
                 font-family: 'Aleo';
+                width: 30%;
+                height: 300px;
+                margin: 20px;
+                margin-left: 40%;
+                margin-top: 103px;
                 color: white;
-                font-size: 40px;
-                margin-top: 0px;
-                text-align: center;
-                }
-                main .section4 .content .description h2{
-                    font-size: 20px;
-                    text-align: left;
-                    margin-top: 20px;
-                    font-family: 'josefin';
-                    text-transform: uppercase;
-                }
-                main .section4 .content .description span{
-                    font-family: 'josefin';
-                    letter-spacing: 0px;
-                    font-size: 15px;
-                }
-                main .section4 .content .description span i{
-                    position: relative;
-                    top: -15px;
-        color: rgba(73,107,255,1);
-                }
+                background-color: #333333;
+                padding: 10px 50px;
+            }
+            main .section4 .content h2{
+            margin-top: 20px;
+            font-family: 'Aleo';
+            color: white;
+            font-size: 40px;
+            margin-top: 0px;
+            text-align: center;
+            }
+            main .section4 .content .description h2{
+                font-size: 20px;
+                text-align: left;
+                margin-top: 50px;
+                font-family: 'josefin';
+                text-transform: uppercase;
+            }
+            main .section4 .content .description span{
+                font-family: 'josefin';
+                letter-spacing: 0px;
+                font-size: 17px;
+            }
+            main .section4 .content .description span i{
+                position: relative;
+                top: -15px;
+    color: rgba(73,107,255,1);
+            }
 }

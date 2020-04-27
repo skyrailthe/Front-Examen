@@ -1,3 +1,4 @@
+@media screen  and (max-width: 720px) /* Smarphone */ {
 header .main_info{
     text-align: center;
     color: white;
@@ -89,13 +90,13 @@ header .main_info .scroll_button div a i:hover{
     color: #5474fd;
     text-decoration: none;
 }
-
-@media screen  and (min-width: 979px) /* Tablet */ {
+}
+@media screen  and (min-width: 720px) /* Tablet */ {
     header .main_info{
         text-align: center;
         color: white;
         font-size: 20px;
-        padding-top: 150px;
+        padding-top: 250px;
     }
     header .main_info h1{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
