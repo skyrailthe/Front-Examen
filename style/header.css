@@ -58,7 +58,7 @@ header .main_info .scroll_button{
     bottom: 15%; 
     left: 30%;
     right: 30%;
-    z-index: ;
+    z-index: 0;
 }
 header .main_info .scroll_button div a{
     font-family: 'Josefin';
