@@ -56,7 +56,7 @@ main .section1 .content .description a:hover{
 main .section1 .content .background{
     background-color: #333333;
     margin-top: 10px;
-    height: 1000em;
+    height: 30em;
 }
 main .section1 .content .background .dotted_pic{
     display: block;
