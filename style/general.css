@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Aleo';
-    src: url(/fonts/Aleo-Font/Webfont-Kit/Regular/aleo-regular-webfont.ttf);
-    src: url(/fonts/Aleo-Font/Webfont-Kit/Light/aleo-light-webfont.ttf);
-    src: url(/fonts/Aleo-Font/Webfont-Kit/Bold/aleo-bold-webfont.ttf);
+    src: url(../fonts/Aleo-Font/Webfont-Kit/Regular/aleo-regular-webfont.ttf);
+    src: url(../fonts/Aleo-Font/Webfont-Kit/Light/aleo-light-webfont.ttf);
+    src: url(../fonts/Aleo-Font/Webfont-Kit/Bold/aleo-bold-webfont.ttf);
     
     font-family: 'Josefin';
-    src: url(/fonts/josefinsans/josefinsans.ttf);
-    src: url(/fonts/josefinsans/josefinsansbold.ttf);
-    src: url(/fonts/josefinsans/josefinsanslight.ttf);
+    src: url(../fonts/josefinsans/josefinsans.ttf);
+    src: url(../fonts/josefinsans/josefinsansbold.ttf);
+    src: url(../fonts/josefinsans/josefinsanslight.ttf);
   } 
 
   header{
