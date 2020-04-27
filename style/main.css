@@ -1,0 +1,831 @@
+main .section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/2.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+}
+main .section1 .content .logos{
+    width: 240px;
+    margin: 0px auto;
+}
+main .section1 .content .logos img{
+    width: 240px;
+    margin-top: 40px;
+}
+main .section1 .content .logos #logo2{
+    visibility: hidden;
+    height: 0px;
+    margin-top: 0px;
+}
+main .section1 .content .description{
+    font-family: 'Aleo';
+    width: 240px;
+    margin: 0px auto;
+    color: white;
+}
+main .section1 .content .description h2{
+margin-top: 20px;
+font-family: 'Aleo';
+}
+main .section1 .content .description p{
+    font-family: 'josefin';
+    letter-spacing: 1px;
+    font-size: 11px;
+    }
+main .section1 .content .description a{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+    font-family: 'Aleo';
+}
+main .section1 .content .description a:active{
+    text-decoration: underline;
+    color: black;
+}
+main .section1 .content .description a:hover{
+    text-decoration: underline;
+    color: black;
+}
+main .section1 .content .background{
+    background-color: #333333;
+    margin-top: 10px;
+    height: 1000em;
+}
+main .section1 .content .background .dotted_pic{
+    display: block;
+    width: 320px;
+    margin: 0px auto;
+}
+main .section1 .content .background .dotted_pic .line-top {
+    display: inline-block;
+    width: 40px;
+    height:20px;
+    z-index: -1;
+    background: transparent;
+    border: none;
+    border-top: dashed 2px rgba(255, 255, 255, 0.336);
+    padding: 20px 16px;
+    margin-left: -75px;
+    border-radius: 50%;
+}
+main .section1 .content .background .dotted_pic .block_underline{
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    width: 90px;
+    height: 10px;
+    padding: 30px;
+    margin-left: -70px;
+    z-index: 1;
+}
+main .section1 .content .background .dotted_pic .block_underline:first-child{
+    margin-left: auto;
+}
+main .section1 .content .background .dotted_pic .block_underline:last-child{
+    margin-right: auto;
+}
+main .section1 .content .background .dotted_pic .block_underline:nth-child(1){
+    color: #4e6cde;
+}
+main .section1 .content .background .dotted_pic .block_underline:nth-child(3){
+    color: #FE6361;
+}
+main .section1 .content .background .dotted_pic .block_underline:nth-child(5){
+    color: #1681C9;
+}
+main .section1 .content .background .dotted_pic .block_underline span{
+    display: block;
+    color: white;
+    font-size: 12px;
+}
+
+    main .section2{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/img/3.png);
+        background-size: cover;
+        background-position: center;
+    }
+    main .section2 .background{
+        padding-top: 150px;
+    }
+    main .section2 .background .description{
+        width: 240px;
+        margin: 0px auto;
+        padding: 20px;
+        color: white;
+        background-color: rgba(48, 48, 48, 0.507);
+    }
+    main .section2 .background .description h2{
+        margin-top: 0px;
+        padding: 5px 0 5px 0;
+        font-family: 'josefin';
+    }
+    main .section2 .background .description span{
+            font-family: 'josefin';
+            font-size: 11px;
+    }
+    main .section2 .background .description a{
+            display: block;
+            font-size: 18px;
+            text-align: center;
+            margin-top: 50px;
+            text-decoration: none;
+            padding: 15px;
+            color: white;
+            background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+            font-family: 'Aleo';
+    }
+    main .section2 .background .description a:active{
+            text-decoration: underline;
+            color: black;
+    }
+    main .section2 .background .description a:hover{
+            text-decoration: underline;
+            color: black;
+    }
+
+        main .section3{
+            height: 100vh;
+            width: 100%;
+            background-image: url(/img/4.png);
+            background-size: cover;
+            background-position: center;
+        }
+        main .section3 .background{
+            padding-top: 150px;
+        }
+        main .section3 .background .description{
+            width: 240px;
+            margin: 0px auto;
+            padding: 20px;
+            color: white;
+            background-color: rgba(48, 48, 48, 0.507);
+        }
+        main .section3 .background .description h2{
+            margin-top: 0px;
+            padding: 5px 0 5px 0;
+            font-family: 'josefin';
+        }
+        main .section3 .background .description span{
+                font-family: 'josefin';
+                font-size: 11px;
+        }
+        main .section3 .background .description a{
+                display: block;
+                font-size: 18px;
+                text-align: center;
+                margin-top: 50px;
+                text-decoration: none;
+                padding: 15px;
+                color: white;
+                background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+                font-family: 'Aleo';
+        }
+        main .section3 .background .description a:active{
+                text-decoration: underline;
+                color: black;
+        }
+        main .section3 .background .description a:hover{
+                text-decoration: underline;
+                color: black;
+        }
+
+
+            main .section4{
+                height: 100vh;
+                width: 100%;
+                background-image: url(/img/5.png);
+                background-size: cover;
+                padding-top: 40px;
+            }
+            main .section4 .content{
+                width: 240px;
+                margin: 0px auto;
+            }
+            main .section4 .content .logos{
+                width: 240px;
+                margin: 0px auto;
+            }
+            main .section4 .content .logos img{
+                width: 240px;
+                margin-top: 40px;
+            }
+            main .section4 .content .description{
+                font-family: 'Aleo';
+                width: 240px;
+                margin: 0px auto;
+                color: white;
+            }
+            main .section4 .content h2{
+            margin-top: 20px;
+            font-family: 'Aleo';
+            color: white;
+            margin-top: 0px;
+            }
+            main .section4 .content .description h2{
+                margin-top: 20px;
+                font-family: 'josefin';
+            }
+            main .section4 .content .description span{
+                font-family: 'josefin';
+                letter-spacing: 1px;
+                font-size: 11px;
+            }
+            main .section4 .content .description span i{
+                position: relative;
+                top: -5px;
+    color: rgba(73,107,255,1);
+            }
+
+@media screen  and (min-width: 979px) /* Tablet */ {
+    main .section1{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/img/2.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    main .section1 .content{
+        padding-top: 1px;
+        height: 100%;
+    }
+    main .section1 .content .logos{
+        width: 360px;
+        position: absolute;
+        right: 10%;
+    }
+    main .section1 .content .logos img{
+        width: 340px;
+    }
+    main .section1 .content .logos #logo2{
+        margin-top: none;
+        visibility: visible;
+        height: 240px;
+        margin-left: 60px;
+    }
+    main .section1 .content .description{
+        font-family: 'Aleo';
+        width: 360px;
+        margin-left: 250px;
+        margin-top: 150px;
+        color: white;
+    }
+    main .section1 .content .description h2{
+    font-family: 'Aleo';
+    font-size: 40px;
+    }
+    main .section1 .content .description p{
+        font-family: 'josefin';
+        letter-spacing: 2px;
+        font-size: 17px;
+        }
+    main .section1 .content .description a{
+        display: block;
+        width: 200px;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+        text-decoration: none;
+        padding: 15px;
+        color: white;
+        background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+        font-family: 'Aleo';
+    }
+    main .section1 .content .description a:active{
+        text-decoration: underline;
+        color: black;
+    }
+    main .section1 .content .description a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    main .section1 .content .background{
+        background-color: #333333;
+        margin-top: 65%;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        bottom: -120vh;
+    }
+    main .section1 .content .background .dotted_pic{
+        display: block;
+        width: 720px;
+        margin: 80px auto;
+        margin-top: 20px;
+        padding-top: 2%;
+        bottom: 0px;
+    }
+    main .section1 .content .background .dotted_pic .line-top {
+        display: inline-block;
+        width: 180px;
+        height:20px;
+        min-height: 50px;
+        z-index: -1;
+        background: transparent;
+        border: none;
+        border-top: dashed 2px rgba(255, 255, 255, 0.336);
+        padding: 35px 16px;
+        margin-left: -75px;
+        border-radius: 50%;
+    }
+    main .section1 .content .background .dotted_pic .block_underline{
+        text-align: center;
+        display: inline-block;
+        font-size: 50px;
+        position: relative;
+        width: 130px;
+        height: 10px;
+        padding: 30px;
+        margin-left: -70px;
+        z-index: 1;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:first-child{
+        margin-left: auto;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:last-child{
+        margin-right: auto;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(1){
+        color: #4e6cde;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(3){
+        color: #FE6361;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(5){
+        color: #1681C9;
+    }
+    main .section1 .content .background .dotted_pic .block_underline span{
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+        
+        main .section2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(/img/3.png);
+            background-size: cover;
+            background-position: center;
+        }
+        main .section2 .background{
+            padding-top: 300px;
+            padding-right: 390px;
+        }
+        main .section2 .background .description{
+            width: 360px;
+            margin: 0px auto;
+            padding: 20px;
+            color: white;
+            background-color: rgba(48, 48, 48, 0.75);
+        }
+        main .section2 .background .description h2{
+            margin-top: 0px;
+            padding: 5px 0 5px 0;
+            font-family: 'josefin';
+            font-size: 40px;
+        }
+        main .section2 .background .description span{
+                font-family: 'josefin';
+                font-size: 17px;
+        }
+        main .section2 .background .description span:first-child{
+            font-size: 22px;
+        }
+        main .section2 .background .description a{
+            display: block;
+            width: 200px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 60px;
+            text-decoration: none;
+            padding: 15px;
+            color: white;
+            background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+            font-family: 'Aleo';
+        }
+        main .section2 .background .description a:active{
+                text-decoration: underline;
+                color: black;
+        }
+        main .section2 .background .description a:hover{
+                text-decoration: underline;
+                color: black;
+        }
+
+
+            main .section3{
+                height: 100vh;
+                width: 100%;
+                background-image: url(/img/4.png);
+                background-size: cover;
+                background-position: center;
+            }
+            main .section3 .background{
+                padding-top: 300px;
+                padding-left: 390px;
+            }
+            main .section3 .background .description{
+                width: 360px;
+                margin: 0px auto;
+                padding: 20px;
+                color: white;
+                background-color: #232323c2
+            }
+            main .section3 .background .description h2{
+                margin-top: 0px;
+                padding: 5px 0 5px 0;
+                font-family: 'josefin';
+                font-size: 40px;
+            }
+            main .section3 .background .description span{
+                    font-family: 'josefin';
+                    font-size: 17px;
+            }
+            main .section3 .background .description span:first-child{
+                font-size: 22px;
+            }
+            main .section3 .background .description a{
+                display: block;
+                width: 200px;
+                font-size: 18px;
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 60px;
+                text-decoration: none;
+                padding: 15px;
+                color: white;
+                background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+                font-family: 'Aleo';
+            }
+            main .section3 .background .description a:active{
+                    text-decoration: underline;
+                    color: black;
+            }
+            main .section3 .background .description a:hover{
+                    text-decoration: underline;
+                    color: black;
+            }
+
+            
+                main .section4{
+                    height: 100vh;
+                    width: 100%;
+                    background-image: url(/img/5.png);
+                    background-size: cover;
+                    padding-top: 300px;
+                }
+                main .section4 .content{
+                    width: 780px;
+                    margin: 0px auto;
+                }
+                main .section4 .content .logos{
+                    width: 400px;
+                    margin: 0px auto;
+                    float: left;
+                    margin-right: 20px;
+                }
+                main .section4 .content .logos img{
+                    width: 400px;
+                    margin-top: 70px;
+
+                }
+                main .section4 .content .description{
+                    font-family: 'Aleo';
+                    width: 380px;
+                    margin: 20px;
+                    margin-left: 340px;
+                    margin-top: 103px;
+                    color: white;
+                    background-color: #333333;
+                    padding: 17px;
+                }
+                main .section4 .content h2{
+                margin-top: 20px;
+                font-family: 'Aleo';
+                color: white;
+                font-size: 40px;
+                margin-top: 0px;
+                text-align: center;
+                }
+                main .section4 .content .description h2{
+                    font-size: 20px;
+                    text-align: left;
+                    margin-top: 20px;
+                    font-family: 'josefin';
+                    text-transform: uppercase;
+                }
+                main .section4 .content .description span{
+                    font-family: 'josefin';
+                    letter-spacing: 0px;
+                    font-size: 15px;
+                }
+                main .section4 .content .description span i{
+                    position: relative;
+                    top: -15px;
+        color: rgba(73,107,255,1);
+                }
+}
+
+@media screen  and (min-width: 1400px) /* Tablet */ {
+    main .section1{
+        height: 100vh;
+        width: 100%;
+        background-image: url(/img/2.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    main .section1 .content{
+        padding-top: 1px;
+
+    }
+    main .section1 .content .logos{
+        width: 360px;
+        position: absolute;
+        left: 50%;
+    }
+    main .section1 .content .logos img{
+        width: 340px;
+    }
+    main .section1 .content .logos #logo2{
+        margin-top: none;
+        visibility: visible;
+        height: 240px;
+        margin-left: 60px;
+    }
+    main .section1 .content .description{
+        font-family: 'Aleo';
+        width: 560px;
+        position: absolute;
+        left: 5%;
+        color: white;
+    }
+    main .section1 .content .description h2{
+    font-family: 'Aleo';
+    font-size: 40px;
+    }
+    main .section1 .content .description p{
+        font-family: 'josefin';
+        letter-spacing: 2px;
+        font-size: 17px;
+        }
+    main .section1 .content .description a{
+        display: block;
+        width: 200px;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 60px;
+        text-decoration: none;
+        padding: 15px;
+        color: white;
+        background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+        font-family: 'Aleo';
+    }
+    main .section1 .content .description a:active{
+        text-decoration: underline;
+        color: black;
+    }
+    main .section1 .content .description a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    main .section1 .content .background{
+        background-color: #333333;
+        height: 200px;
+    }
+    main .section1 .content .background .dotted_pic{
+        display: block;
+        width: 720px;
+        margin: 80px auto;
+        margin-top: 20px;
+    }
+    main .section1 .content .background .dotted_pic .line-top {
+        display: inline-block;
+        width: 180px;
+        height:20px;
+        min-height: 50px;
+        z-index: -1;
+        background: transparent;
+        border: none;
+        border-top: dashed 2px rgba(255, 255, 255, 0.336);
+        padding: 35px 16px;
+        margin-left: -75px;
+        border-radius: 50%;
+    }
+    main .section1 .content .background .dotted_pic .block_underline{
+        text-align: center;
+        display: inline-block;
+        font-size: 50px;
+        position: relative;
+        width: 130px;
+        height: 10px;
+        padding: 0 30px;
+        margin-left: -70px;
+        z-index: 1;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:first-child{
+        margin-left: auto;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:last-child{
+        margin-right: auto;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(1){
+        color: #4e6cde;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(3){
+        color: #FE6361;
+    }
+    main .section1 .content .background .dotted_pic .block_underline:nth-child(5){
+        color: #1681C9;
+    }
+    main .section1 .content .background .dotted_pic .block_underline span{
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+    }  
+
+        main .section2{
+            height: 100vh;
+            width: 100%;
+            background-image: url(/img/3.png);
+            background-size: cover;
+            background-position: center;
+        }
+        main .section2 .background{
+            padding-top: 300px;
+            padding-right: 460px;
+        }
+        main .section2 .background .description{
+            width: 460px;
+            margin: 0px auto;
+            padding: 20px;
+            color: white;
+            background-color: rgba(48, 48, 48, 0.75);
+        }
+        main .section2 .background .description h2{
+            margin-top: 0px;
+            padding: 5px 0 5px 0;
+            font-family: 'josefin';
+            font-size: 45px;
+        }
+        main .section2 .background .description span{
+                font-family: 'josefin';
+                font-size: 20px;
+                font-weight: 700;
+        }
+        main .section2 .background .description span:first-child{
+            font-size: 22px;
+        }
+        main .section2 .background .description a{
+            display: block;
+            width: 200px;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 60px;
+            text-decoration: none;
+            padding: 15px;
+            color: white;
+            background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+            font-family: 'Aleo';
+        }
+        main .section2 .background .description a:active{
+                text-decoration: underline;
+                color: black;
+        }
+        main .section2 .background .description a:hover{
+                text-decoration: underline;
+                color: black;
+        }
+
+
+            main .section3{
+                height: 100vh;
+                width: 100%;
+                background-image: url(/img/4.png);
+                background-size: cover;
+                background-position: center;
+            }
+            main .section3 .background{
+                padding-top: 300px;
+                padding-left: 460px;
+            }
+            main .section3 .background .description{
+                width: 460px;
+                margin: 0px auto;
+                padding: 20px;
+                color: white;
+                background-color: rgba(48, 48, 48, 0.75);
+            }
+            main .section3 .background .description h2{
+                margin-top: 0px;
+                padding: 5px 0 5px 0;
+                font-family: 'josefin';
+                font-size: 45px;
+            }
+            main .section3 .background .description span{
+                    font-family: 'josefin';
+                    font-size: 20px;
+                    font-weight: 700;
+            }
+            main .section3 .background .description span:first-child{
+                font-size: 22px;
+            }
+            main .section3 .background .description a{
+                display: block;
+                width: 200px;
+                font-size: 18px;
+                text-align: center;
+                text-transform: uppercase;
+                margin-top: 60px;
+                text-decoration: none;
+                padding: 15px;
+                color: white;
+                background: linear-gradient(35deg, rgba(73,107,255,1) 0%, rgba(73,107,255,1) 41%, rgba(84,116,253,1) 41%);
+                font-family: 'Aleo';
+            }
+            main .section3 .background .description a:active{
+                    text-decoration: underline;
+                    color: black;
+            }
+            main .section3 .background .description a:hover{
+                    text-decoration: underline;
+                    color: black;
+            }
+
+
+                main .section4{
+                    height: 100vh;
+                    width: 100%;
+                    background-image: url(/img/5.png);
+                    background-size: cover;
+                    padding-top: 300px;
+                }
+                main .section4 .content{
+                    width: 880px;
+                    margin: 0px auto;
+                }
+                main .section4 .content .logos{
+                    width: 400px;
+                    margin: 0px auto;
+                    float: left;
+                    margin-right: 20px;
+                }
+                main .section4 .content .logos img{
+                    width: 400px;
+                    margin-top: 70px;
+
+                }
+                main .section4 .content .description{
+                    font-family: 'Aleo';
+                    width: 500px;
+                    margin: 20px;
+                    margin-left: 340px;
+                    margin-top: 103px;
+                    color: white;
+                    background-color: #333333;
+                    padding: 38px;
+                }
+                main .section4 .content h2{
+                margin-top: 20px;
+                font-family: 'Aleo';
+                color: white;
+                font-size: 40px;
+                margin-top: 0px;
+                text-align: center;
+                }
+                main .section4 .content .description h2{
+                    font-size: 20px;
+                    text-align: left;
+                    margin-top: 20px;
+                    font-family: 'josefin';
+                    text-transform: uppercase;
+                }
+                main .section4 .content .description span{
+                    font-family: 'josefin';
+                    letter-spacing: 0px;
+                    font-size: 15px;
+                }
+                main .section4 .content .description span i{
+                    position: relative;
+                    top: -15px;
+        color: rgba(73,107,255,1);
+                }
+}
